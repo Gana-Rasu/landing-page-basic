@@ -1,0 +1,101 @@
+body{
+    text-align: center;
+    margin: 0px;
+    font-family: sans-serif;
+    
+}
+
+.top-container{
+background-color:#072227;
+padding-top: 100px;
+position: relative;
+font-family: 'Black Ops One', cursive;
+font-size: 1.3rem;
+color: #AEFEFF;
+}
+
+.top-cloud{
+position: absolute;
+right: 300px;
+top: 50px;
+}
+
+.bottom-cloud{
+   position: absolute;
+   left: 300px;
+   bottom: 300px;
+}
+
+.middle-container{
+background-color: #35858B;
+color: #072227;
+padding: 25px 0px 25px 0px;
+font-size: 1.2rem;
+font-family: 'Bebas Neue', cursive;
+}
+
+.para{
+    color: #AEFEFF;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.profile{
+
+    font-size: 1.4rem;
+    font-weight: bold;
+   
+}
+
+.skills{
+    /* padding-top: 25px; */
+    display: flex;
+}
+
+.image{
+width: 250px;
+height: 250px;
+}
+
+ .contact-me{
+    padding: 25px 0px 50px 0px;
+    margin: 0px;
+} 
+
+
+.contact-me{
+    font-family: 'Bebas Neue', cursive;
+    background-color:#AEFEFF ;
+    color: #072227;
+}
+
+.last-para{
+    padding: 5px;
+}
+
+.btn {
+    background: #072227;
+    background-image: -webkit-linear-gradient(top, #072227, #2980b9);
+    background-image: -moz-linear-gradient(top, #072227, #2980b9);
+    background-image: -ms-linear-gradient(top, #072227, #2980b9);
+    background-image: -o-linear-gradient(top, #072227, #2980b9);
+    background-image: linear-gradient(to bottom, #072227, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
